@@ -1,0 +1,38 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+
+.text {
+    padding: 2rem 0;
+}
+
+.titulo {
+    padding-top: 4.5rem;
+}
+
+.botao_resetar {
+    align-items: center;
+    appearance: button;
+    background-color: #f4065e;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    line-height: 1.15;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: none;
+}
+
+@media screen and (max-width: 500px) {
+    .titulo {
+        font-size: 2.5rem;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
